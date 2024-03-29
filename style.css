@@ -1,0 +1,68 @@
+body {
+    background-repeat: no-repeat;
+    background-color:lavender
+  }
+  
+  .container {
+    display: flex; /* Gunakan flexbox */
+    flex-direction: column; /* Tata letak kolom */
+    align-items: center; /* Posisikan elemen secara vertikal di tengah */
+    justify-content: center; /* Posisikan elemen secara horizontal di tengah */
+    height: 70vh; /* Gunakan tinggi 100% dari viewport */
+    border: 2px solid black; /* Tambahkan border */
+    padding: 170px; /* Tambahkan padding */
+    border-radius: 60px; /* Tambahkan sudut lengkung */
+    max-width: 1000px; /* Batasi lebar maksimum */
+    margin: 0 auto; /* Pusatkan container */
+    margin-top: 60px;
+    font-size:29px;
+    background-color:oldlace;
+    overflow: hidden;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  
+    
+    
+  
+  }
+
+  button{
+    padding: 12px, 20px;
+    background-color: yellow;
+    font-family:  'Courier New';
+    font-size:x-large;
+}
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+
+}
+  .content {
+    padding-top: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+  
+  article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+
+  
+
